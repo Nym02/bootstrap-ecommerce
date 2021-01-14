@@ -33,6 +33,9 @@ header section starts here
   width: 90% !important;
   margin-top: -20px;
 }
+.hero-info {
+  padding: 50px 0;
+}
 .hero-btn-text {
   background-color: #3d4ff3;
 }
@@ -45,6 +48,7 @@ header section starts here
   color: #f47f4c;
 }
 .hero-header-2 {
+  color: #363958;
 }
 /* section hero ends here  */
 /* ===========================================
@@ -53,6 +57,9 @@ header section ends here
 /* ============================================
 section casual shoe 
 ============================================ */
+.shoe-name {
+  font-size: 20px;
+}
 .header-primary {
   font-family: "Staatliches", cursive;
   font-size: 50px;
@@ -65,4 +72,167 @@ section casual shoe
 }
 /* ============================================
 section casual shoe 
+============================================ */
+/* ============================================
+section  feature
+============================================ */
+.section-feature {
+  padding: 130px 0 !important;
+}
+.feature-1 {
+  min-width: 60% !important;
+  margin: auto;
+}
+.feature-img-mod {
+  width: 50%;
+}
+.feature-hero-img-mod {
+}
+/* ============================================
+section feature 
+============================================ */
+/* ============================================
+section  attributes
+============================================ */
+.section-attributes {
+  padding: 100px 0 !important;
+}
+.attributes {
+  border-top: 1px solid #3d4ff3;
+  border-bottom: 1px solid #3d4ff3;
+  padding: 30px 0;
+}
+.attribute-1:not(:last-child) {
+  border-right: 1px solid #3d4ff3 !important;
+}
+.fa-truck,
+.fa-gift,
+.fa-clock {
+  font-size: 42px;
+  color: #f47f4c;
+  margin-right: 10px;
+}
+.border-1px {
+  border-right: 1px solid #3d4ff3;
+}
+.attributes-header {
+  font-size: 42px;
+}
+
+/* ============================================
+section attributes 
+============================================ */
+/* ============================================
+section contact us
+============================================ */
+.section-contact-us {
+  padding: 100px 0 !important;
+}
+
+/* ============================================
+section contact us
+============================================ */
+/* ============================================
+section footer
+============================================ */
+.footer-area {
+  background-color: #1d1c1c;
+  padding: 100px 0 !important;
+  color: #fff9f4;
+}
+
+/* ============================================
+section footer
+============================================ */
+
+/* ============================================
+Responsive Codes
+============================================ */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .hero-header {
+    font-size: 51px;
+  }
+  .section-feature {
+    padding: 70px 0 !important;
+  }
+  .feature-header {
+    font-size: 20px;
+  }
+  .feature-text {
+    font-size: 13px;
+  }
+  .feature-hero-img {
+    margin-top: 40px;
+  }
+  .border-1px {
+    border-right: 0px solid #3d4ff3;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero-info {
+    text-align: center;
+  }
+  .border-1px {
+    border-right: 0px solid #3d4ff3;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero-img {
+    width: 90% !important;
+    margin-top: 0px;
+  }
+  .hero-info {
+    padding: 0px 0;
+  }
+  .hero-header {
+    font-size: 45px;
+    letter-spacing: -1px;
+  }
+  .shoe-name {
+    font-size: 20px;
+    min-height: 48px;
+  }
+  .shoe-price-info {
+    flex-direction: column;
+  }
+  .feature-hero-img {
+    margin-top: 50px;
+  }
+  .attributes-header {
+    font-size: 20px;
+  }
+  .fa-truck,
+  .fa-gift,
+  .fa-clock {
+    font-size: 20px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero-img {
+    width: 90% !important;
+    margin-top: 29px;
+  }
+  .shoe-price-info {
+    flex-direction: column;
+  }
+  .shoe-name {
+    font-size: 16px;
+  }
+  .feature-hero-img {
+    padding: 55px 0;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* ============================================
+Responsive Codes
 ============================================ */
